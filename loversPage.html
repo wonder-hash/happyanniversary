@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovers Quiz</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Thank you message -->
+    <div id="intro">
+        <h1>Thank you for completing our journey, my love!</h1>
+        <div class="cute"><p id="cute">First and foremost i wanna wish you an incredibly Anniversary and saying thank you for being my girlfriend. I want you to know that i adore you so very much. Thank you for saying yes to me being your valentine and for even viewing my little gift for you. I love you so very much. I want you to know ill always be there for you through both your lows and your highs. I will always support you. Your are a beautiful woman and a very very sweet one. i wish you a happy Anniversary and thank you again for being my valentine. I share all my love to you and gratitude. I cant wait to share another forever with you. Now for the game :3 I made a little quiz for you a little fun game :3. Get enough answers right and you will be led to a nice little suprise :3.</p></div>
+        <button id="startButton">Next</button>
+    </div>
+
+    <!-- Quiz section -->
+    <div id="quiz" style="display:none;">
+        <div id="question-card">
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div id="answer-options"></div>
+            </div>
+            <div id="score">
+                <p>Correct Answers: <span id="correctCount">0</span></p>
+                <p>Wrong Answers: <span id="wrongCount">0</span></p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="end-message" style="display:none;">
+        <h2 id="endMessageText"></h2>
+        <div class="cute"><p id="endParagraphText"></p></div>
+        <button id="restartButton">Restart Quiz</button>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

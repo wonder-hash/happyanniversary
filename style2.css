@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffe6e6; /* Soft pink background */
+    padding: 50px;
+}
+
+h1, h2 {
+    color: #ff6f91;
+    font-family: 'Georgia', serif; /* Romantic font style */
+}
+
+.cute{
+    border: #555 solid 1px;
+    background-color: #f999af;
+    padding: 10px;
+    text-align: center;
+    margin: 15vh auto;
+}
+
+#cute{
+    color:#ffe6e6;
+    font-family: 'Georgia', serif;
+}
+
+#endParagraphText{
+    color:#ffe6e6;
+    font-family: 'Georgia', serif;
+}
+
+/* Progress bar container */
+#progress-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #ffe6e6; /* Light pink background */
+    border-radius: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Actual progress bar */
+#progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #ff6f91; /* Pink progress bar */
+    transition: width 0.5s ease;
+    border-radius: 5px;
+}
+
+
+#startButton, #restartButton {
+    padding: 10px 20px;
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#startButton:hover, #restartButton:hover {
+    background-color: #ff4f71;
+}
+
+#quiz {
+    margin-top: 50px;
+}
+
+#question-card {
+    background-color: white;
+    border: 2px solid #ff6f91;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#question-container h2 {
+    color: #ff6f91;
+}
+
+#answer-options button {
+    display: block;
+    margin: 10px auto;
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+#answer-options button:hover {
+    background-color: #ff4f71;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+#names-container {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6f91;
+}
+
+#names {
+    font-size: 30px;
+    font-family: 'Georgia', serif;
+    transition: transform 0.5s ease;
+}
+
+/* Heartbeat animation */
+@keyframes hearts {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.heart-animation {
+    animation: hearts 1s infinite;
+}
